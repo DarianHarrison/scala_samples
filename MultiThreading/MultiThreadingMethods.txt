@@ -1,0 +1,17 @@
+1. Public static void sleep(long millis) throws InterruptedException- This puts the thread to sleep for a certain number of milliseconds.
+
+2. Public final String getName()- This method gets the name of the thread.
+
+3. Public final void setName(String name)- This method lets us set the name of the thread.
+
+4. Public final int getPriority()- This method gives us the priority of the thread.
+
+5. Public final void setPriority(int newPriority)- This method lets us set priority for a thread.
+
+6. Public final boolean isAlive()- This tells us if a thread is alive (somewhere between states New and Terminated.
+
+7. Public final void join() throws InterruptedException- This method waits for the thread to die before starting another.
+
+8. Public static void yield()- Yield compels the current running thread to give up control to other threads. It pauses the current thread.
+
+9. Public Thread.State getState()- This returns the state of the thread. It lets us monitor system state.
